@@ -5,3 +5,4 @@ document.write(Sent1 + Sent2 + "<br>"); //Concatenates the Sent1 and Sent2 varia
 //Also an expression. Added a break to separate the following expression
 document.write(20 + 20 + "<br>"); //writing a pure expression and adding a break
 document.write(Sent3); // telling Sent3 to show up on screen
+alert("Hello, world!") // popup message "Hello, world!"
