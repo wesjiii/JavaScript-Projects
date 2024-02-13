@@ -6,5 +6,5 @@ function my_Animals() { //assigning name or label to the function
         rabbits: 15 // assigning a value of 15 to the label rabbits
     };
     delete Animal.fish; //deleting the varable fish
-    document.getElementById("one").innerHTML = Animal.cats; //telling the function to provide the value for cats once the user interacts with all lines affected by the "one" ID
+    document.getElementById("one").innerHTML = Animal.fish; //telling the function to provide the value for cats once the user interacts with all lines affected by the "one" ID
 }
