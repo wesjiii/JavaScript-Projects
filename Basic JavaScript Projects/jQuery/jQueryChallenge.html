@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang=“en”>
+	<head>
+		<title> write title here </title>
+		<meta charset=“utf-8”>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	</head>
+	<body>
+        <script>
+            $(document).ready(function() { //making sure that the document is ready and creating the function label
+                $("html").append( //this will allow us to affect and control any and all parts of the html document
+                    "<body>\
+                        <div id='container'>\
+                            <div id='inner'>\
+                                <h1>Basic jQuery</h1>\
+                                <p id='1'>Paragraph 1</p>\
+                                <p id='2'>Paragraph 2</p>\
+                                <p id='3'>Paragraph 3</p>\
+                            </div>\
+                        </div>\
+                    </body>"
+                );
+                $("p").hide("slow"); //targets the paragrah elements and causes them to utlize hide event, but with a slow effect
+            });
+        </script>
+	</body>
+</html>
